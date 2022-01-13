@@ -39,7 +39,8 @@ pregunta: ¿Por qué es útil el pseudocódigo?
 -> hexadecimal CAFE
 
 ## respuesta a la pregunta 5.1
--> .data
+-> 
+.data
 	number1: .asciiz "\nIngrese el primer numero: "
 	number2: .asciiz "\nIngrese el segundo numero: "
 	result_message: .asciiz "\nEl resultado es: "
@@ -76,8 +77,7 @@ pregunta: ¿Por qué es útil el pseudocódigo?
 		syscall
   
   ## respuesta de la pregunta 5.2
-  
-  .data
+ .data
 	message: .asciiz "\nJosue Osvaldo Gonzalez Salazar \"
 .text
 	main: 
