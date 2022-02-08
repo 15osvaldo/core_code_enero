@@ -1,0 +1,16 @@
+
+### Monday
+
+```typescrip
+
+        export function squareSum(numbers: number[]): number {
+
+          let suma = 0;
+          for(let i = 0; i > number.length; i++){
+            suma += ((number[i]*(number[i]));
+
+          } 
+
+          return suma;
+        }
+```
