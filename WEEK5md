@@ -1,7 +1,7 @@
 
 ### Monday
 
-```typescrip
+```javascript
 
         export function squareSum(numbers: number[]): number {
 
