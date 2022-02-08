@@ -1,22 +1,23 @@
 
 ### Monday
 
-```typescript
-                           export function squareSum(numbers: number[]): number {
-                           let suma = 0;
-                          let cuadrados = [];
-                          let numero = number;
-                          for(let i = 0; i < numero.length; i++){
-                            cuadrados.push(Math.pow(numero[i],2));
-                            }
-                          for(let i = 0; i < cuadrados.length; i++){
+# 2
 
-                            suma += cuadrados[i];
-                          }
-
-                          return suma;
-                        }
-```
+  ```typescript
+   export function squareSum(numbers: number[]): number {
+   let suma = 0;
+   let cuadrados = [];
+   let numero = number;
+   for(let i = 0; i < numero.length; i++){
+        cuadrados.push(Math.pow(numero[i],2));
+     }
+   for(let i = 0; i < cuadrados.length; i++){
+        suma += cuadrados[i];
+    }
+   return suma;
+  }
+  ```
+  # 3
 
 ```typescript
 
@@ -30,4 +31,25 @@ export class G964 {
       }    
 }
 
+```
+# 4
+```typescript
+  export function accum(s: string): string {
+   return s.split('')
+    .map((elem, index) => elem.toUpperCase() + (elem.toLowerCase()).repeat(index))
+    .join('-');
+  }
+```
+
+
+# 5
+
+```typescript
+
+    export function warnTheSheep(queue: string[]): string {
+      let wolf = queue.indexOf('wolf');
+
+      return wolf === queue.length - 1 ? `Pls go away and stop eating my sheep` : `Oi! Sheep number ${queue.length - wolf -1}! You are about to be eaten by a wolf!`;
+
+    }
 ```
